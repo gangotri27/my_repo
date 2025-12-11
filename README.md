@@ -1,5 +1,9 @@
 # my_repo
 
+```bash
+ros2 run ros_gz_sim create -name cube  -x 0.4 -y 0 -z 0.05 -file ~/omx_ws/src/omx_demos/cube.sdf
+```
+
 # Step 1: The MoveIt Setup Assistant (Configuration Package)
 
 ## You cannot write the config manually; you must use the GUI tool.
