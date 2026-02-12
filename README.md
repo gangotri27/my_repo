@@ -11,7 +11,11 @@ ros2 run ros_gz_sim create -name cube  -x 0.4 -y 0 -z 0.05 -file ~/omx_ws/src/om
 ## 1. Launch the Assistant:
 
 ```bash
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
 ros2 launch moveit_setup_assistant setup_assistant.launch.py
+
 ```
 
 ## 2. Load URDF:
